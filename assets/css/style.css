@@ -1,33 +1,54 @@
 header {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  height: 64px;
-  width: 1280px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  padding: 16px;
-  backdrop-filter: blur(4px);
-  background-color: rgba(255, 255, 255, 0.25);
-  border: solid black 2px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 64px;
+    width: 1280px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 16px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.25);
+    border: solid black 2px;
+    justify-content: space-between;
 }
 
 .search {
-  position: absolute;
-  height: 32px;
-  width: 896px;
-  left: 192px;
-  right: 192px;
-  top: calc(50% - 32px / 2);
-  padding: 16px 192px 16px 192px;
-
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  box-sizing: border-box;
-  border-radius: 16px;
+    position: absolute;
+    height: 32px;
+    width: 896px;
+    left: 192px;
+    right: 192px;
+    top: calc(50% - 32px / 2);
+    margin: 0px 872px 16px 16px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 16px;
 }
 
 .logo {
-  padding: 16px 872px 16px 16px;
+    padding: 16px 872px 16px 16px;
+}
+
+#carrito {
+    margin: 16px 1146px 16px 102px;
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: #494f51;
+    color: white;
+    width: 32x;
+    height: 32px;
+}
+
+.olivia {
+    position: absolute;
+    height: 32px;
+    right: 30px;
+    bottom: 22px;
+    margin: 16px 16px 16px 1186px;
+    background: #0cb093;
+    border-radius: 16px;
+    background-color: #494f51;
 }
