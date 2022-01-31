@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 64px;
+  width: 1280px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  padding: 16px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.25);
+  border: solid black 2px;
+}
+
+.search {
+  position: absolute;
+  height: 32px;
+  width: 896px;
+  left: 192px;
+  right: 192px;
+  top: calc(50% - 32px / 2);
+  padding: 16px 192px 16px 192px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.logo {
+  padding: 16px 872px 16px 16px;
+}
