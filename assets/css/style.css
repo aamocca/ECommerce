@@ -1,54 +1,74 @@
 header {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    height: 64px;
-    width: 1280px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    padding: 16px;
-    backdrop-filter: blur(4px);
-    background-color: rgba(255, 255, 255, 0.25);
-    border: solid black 2px;
-    justify-content: space-between;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 64px;
+  width: 1280px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  padding: 16px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(231, 231, 231, 0.25);
+
+  justify-content: space-between;
 }
 
 .search {
-    position: absolute;
-    height: 32px;
-    width: 896px;
-    left: 192px;
-    right: 192px;
-    top: calc(50% - 32px / 2);
-    margin: 0px 872px 16px 16px;
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-sizing: border-box;
-    border-radius: 16px;
+  padding: 8px 40px 8px 16px;
+  position: absolute;
+  height: 32px;
+  width: 896px;
+  left: 192px;
+  right: 192px;
+  top: calc(50% - 32px / 2);
+  margin: 0px 872px 16px 16px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 16px;
 }
 
 .logo {
-    padding: 16px 872px 16px 16px;
+  padding: 16px 872px 16px 16px;
 }
 
 #carrito {
-    margin: 16px 1146px 16px 102px;
-    border: solid 2px black;
-    border-radius: 50%;
-    background-color: #494f51;
-    color: white;
-    width: 32x;
-    height: 32px;
+  margin: 32px 1146px 32px 1146px;
+  border: solid 2px black;
+  border-radius: 50%;
+  background-color: #494f51;
+  color: white;
+  width: 32x;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  right: 72.88%;
+  top: 0%;
+  bottom: 0%;
 }
 
 .olivia {
-    position: absolute;
-    height: 32px;
-    right: 30px;
-    bottom: 22px;
-    margin: 16px 16px 16px 1186px;
-    background: #0cb093;
-    border-radius: 16px;
-    background-color: #494f51;
+  position: absolute;
+  width: 78px;
+  height: 32px;
+  right: 16px;
+  bottom: 16px;
+  margin: 16px 16px 16px 930px;
+  background: #0cb093;
+  border-radius: 16px;
+  background-color: #494f51;
+}
+
+#img-search {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 228px;
+  top: calc(50% - 16px / 2);
+}
+
+.img-olivia {
+  width: 118px;
 }
