@@ -18,7 +18,7 @@ app.get("/products/:id", (req, res) => {
 });
 
 app.get("/cart", (req, res) => {
-  res.render("./pages/checkout.ejs");
+  res.render("./pages/cart.ejs");
 });
 
 app.get("/register", (req, res) => {
