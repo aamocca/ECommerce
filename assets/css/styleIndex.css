@@ -1,0 +1,91 @@
+.index {
+    display: flex;
+    justify-content: center;
+}
+
+.categories {
+    position: absolute;
+    color: white;
+    background-color: rgba(73, 79, 81, 1);
+    border-radius: 10px;
+    width: 1100px;
+    height: 128px;
+    text-align: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    top: 130px;
+}
+
+.lista_categorias {
+    position: relative;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.line1 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 140px;
+}
+
+.line2 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 280px;
+}
+
+.line3 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 400px;
+}
+
+.line4 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 560px;
+}
+
+.line5 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 670px;
+}
+
+.line6 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 810px;
+}
+
+.line7 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 920px;
+}
