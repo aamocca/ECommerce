@@ -8,36 +8,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
     <title>Registro</title>
   </head>
-  <body class="bodyLogReg">
-    <section class="cuadroLogReg2">
-      <form class="cuadroLogReg">
-        <h2 class="textLogReg">!Regitrate¡</h2>
-        <input type="email" name="email" id="NomUsr" placeholder="Tu email" />
-        <input
-          type="password"
-          name="Pass"
-          id="Pass"
-          required
-          placeholder="Tu nueva contraseña"
-        />
-        <input
-          type="password"
-          name="ValidPass"
-          id="Pass"
-          required
-          placeholder="Repite tu contraseña"
-        />
-        <button id="botonIniciarSesion">Crear Cuenta</button>
-      </form>
+  <header><%- include('../partials/header') %></header>
+  <body>
+    <div class="cuadroFondo"></div>
+    <section class="seccionLogReg">
+      <section class="cuadroLogReg2">
+        <form class="cuadroLogReg">
+          <h2 class="textLogReg">!Regitrate¡</h2>
+          <input type="email" name="email" id="NomUsr" placeholder="Tu email" />
+          <input
+            type="password"
+            name="Pass"
+            id="Pass"
+            required
+            placeholder="Tu nueva contraseña"
+          />
+          <input
+            type="password"
+            name="ValidPass"
+            id="Pass"
+            required
+            placeholder="Repite tu contraseña"
+          />
+          <button id="botonIniciarSesion">Crear Cuenta</button>
+        </form>
 
-      <p class="mensajeRegistro">
-        ¿Ya tienes Cuenta? <a href="/login">Inicia Sesión</a>
-      </p>
+        <p class="mensajeRegistro">
+          ¿Ya tienes Cuenta? <a href="/login">Inicia Sesión</a>
+        </p>
+      </section>
     </section>
   </body>
   <footer></footer>
