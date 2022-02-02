@@ -371,3 +371,8 @@ header {
   top: 64px;
   background: #0cb093;
 }
+
+.cartmain {
+  width: 100vw;
+  position: absolute;
+}
