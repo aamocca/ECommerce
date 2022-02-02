@@ -10,12 +10,12 @@
     <link href="/css/footer.css" rel="stylesheet" />
     <title>Index</title>
 </head>
-<header>
-    <%- include('../partials/header2') %>
-</header>
 
 <body>
-    <article class="index">
+    <main>
+        <header>
+            <%- include('../partials/header2') %>
+        </header>
         <div class="categories">
             <ul class="lista_categorias">
                 <li>
@@ -75,30 +75,170 @@
                 </li>
             </ul>
         </div>
-        <div class="hero"></div>
-        <div class="intereses">
-            <section>
-                <div>
-                    <h1></h1>
-                </div>
-            </section>
-        </div>
-        <div class="mas_pedidos">
-            <section>
-                <div>
-                    <h1></h1>
-                </div>
-            </section>
-        </div>
-    </article>
-    <!-- <section>
+
         <div class="textInteres">
             <h1>Te puede interesar</h1>
         </div>
-    </section> -->
-    <%- include ('../partials/categorias') %>
-        <%-
-    include('../partials/footer.ejs') %>
+        <section class="moverAlgoAsi">
+            <article class="coca2">
+                <img class="coca1" src="/img/images (2).jpeg" />
+                <p class="titulop">Coca Cola Lata 220mL Pack Original x8</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>760</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss4">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss5">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss6">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+        </section>
+
+        <div class="textPedidos">
+            <h1>Los más pedidos</h1>
+        </div>
+
+        <section class="moverAlgoAsi2">
+            <article class="coca3">
+                <img class="coca1" src="/img/images (1).jpeg" />
+                <p class="titulop">Coca Cola Lata 220mL Pack Original x8</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>760</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss7">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss8">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss9">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+        </section>
+
+        <section class="moverAlgoAsi3">
+            <article class="coca4">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss10">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss11">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+            <article class="miss12">
+                <img class="coca1" src="/img/chess.png" />
+                <p class="titulop">NOMBRE DEL PRODUCTO O SERVICIO</p>
+                <div class="line"></div>
+                <p class="puntosc"><strong>XX.XXX</strong></p>
+                <p class="puntosp">PUNTOS</p>
+            </article>
+        </section>
+
+        <section class="categories2">
+            <div class="cat2">
+                <ul class="lista_categorias">
+                    <li>
+                        <div class="electronica">
+                            <img class="svg" src="/img/tablet-cellphone.svg" alt="cagó" />
+                            <p>Electrónica</p>
+                        </div>
+                    </li>
+                    <div class="line1"></div>
+                    <li>
+                        <div class="alimentos">
+                            <img src="/img/hamburger.svg" alt="cagó" />
+                            <p>Alimentos</p>
+                        </div>
+                    </li>
+                    <div class="line2"></div>
+                    <li>
+                        <div class="bebidas">
+                            <img src="/img/glass-mug-variant.svg" alt="cagó" />
+                            <p>Bebidas</p>
+                        </div>
+                    </li>
+                    <div class="line3"></div>
+                    <li>
+                        <div class="indumentaria">
+                            <img src="/img/tshirt-crew.svg" alt="cagó" />
+                            <p>Indumentaria</p>
+                        </div>
+                    </li>
+                    <div class="line4"></div>
+                    <li>
+                        <div class="juegos">
+                            <img src="/img/controller-classic.svg" alt="cagó" />
+                            <p>Juegos</p>
+                        </div>
+                    </li>
+                    <div class="line5"></div>
+                    <li>
+                        <div class="automotor">
+                            <img src="/img/steering.svg" alt="cagó" />
+                            <p>Automotor</p>
+                        </div>
+                    </li>
+                    <div class="line6"></div>
+                    <li>
+                        <div class="hogar">
+                            <img src="/img/sofa-single.svg" alt="cagó" />
+                            <p>Hogar</p>
+                        </div>
+                    </li>
+                    <div class="line7"></div>
+                    <li>
+                        <div class="otros">
+                            <img src="/img/gift-outline.svg" alt="cagó" />
+                            <p>Otros</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <%- include('../partials/footer.ejs') %>
 </body>
 
 </html>
