@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const app = express();
+const productRoute = require("./routes/productRoute");
 
 app.use(express.static("assets"));
 app.set("view engine", "ejs");
@@ -13,9 +14,7 @@ app.get("/", (req, res) => {
   res.render("./pages/index.ejs");
 });
 
-app.get("/products/:id", (req, res) => {
-  res.render("./pages/producto.ejs");
-});
+app.use("/products", productRoute);
 
 app.get("/cart", (req, res) => {
   res.render("./pages/cart.ejs");
