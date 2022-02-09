@@ -26,6 +26,17 @@ app.get("/cart", (req, res) => {
 app.get("/register", (req, res) => {
   res.render("./pages/register.ejs");
 });
+
+app.get("/checkout", (req, res) => {
+  res.send("501 Not Implemented");
+});
+
+// app.use("/register", usersController);
+
 app.get("/login", (req, res) => {
   res.render("./pages/login.ejs");
+});
+
+app.get("*", function (req, res) {
+  res.send("Error 404", 404);
 });
