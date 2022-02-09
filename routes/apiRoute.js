@@ -7,7 +7,11 @@ router.get("/products", apiControllers.index);
 router.get("/suggested", apiControllers.suggested);
 router.get("/mostWanted", apiControllers.mostWanted);
 router.post("/users");
+router.post("/users/login", usersController.inicia);
 router.post("/users/register", usersController.registro);
+router.get("/cart/:u");
+router.post("/cart/:u?p=p");
+router.post("/cart/:u?p=P");
 router.get("/:id", apiControllers.idProduct);
 router.get("/:id/related", apiControllers.sameCategory);
 
