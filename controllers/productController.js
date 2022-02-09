@@ -35,6 +35,20 @@ let productsController = {
       );
     }
   },
+
+  suggested: async (req, res) => {
+    let id = req.params.id;
+
+    let response = await fetch(url);
+    let data = await response.json();
+    const productoFiltrado = data.find((product) => product._id == id);
+
+    let cortar = data.slice(0, 5);
+    res.render(
+      "pages/producto.ejs",
+      ((products = cortar), (product = productoFiltrado))
+    );
+  },
 };
 
 module.exports = productsController;
