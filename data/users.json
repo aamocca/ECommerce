@@ -9,5 +9,10 @@
   {
     "email": "dilan@com",
     "password": "123"
+  },
+  {
+    "id": 1,
+    "email": "sofia.zamora@gmail.com",
+    "password": "1234"
   }
 ]
