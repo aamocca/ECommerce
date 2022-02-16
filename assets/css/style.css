@@ -1,3 +1,4 @@
+/* HEADER */
 header {
   position: absolute;
   height: 64px;
@@ -29,6 +30,11 @@ header {
   padding: 16px 872px 16px 16px;
 }
 
+.logoMovil {
+  display: none;
+}
+
+/* Carrito */
 #carrito {
   border: solid 2px black;
   border-radius: 50%;
@@ -441,18 +447,77 @@ header {
 }
 
 @media (max-width: 414px) {
+  /* ------HEADER---------- */
+
   header {
-    display: none;
-    position: absolute;
-    height: 64px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    padding: 16px;
-    backdrop-filter: blur(4px);
-    background-color: rgba(231, 231, 231, 0.25);
-    justify-content: space-between;
+    /* display: none; /* ocultar */
+    width: 100%;
+    position: fixed;
   }
+  .search {
+    padding: 8px 40px 8px 16px;
+    position: absolute;
+    height: 32px;
+    width: 45%;
+    left: 80px;
+    top: calc(50% - 32px / 2);
+    margin: 0px 872px 16px 16px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .logo {
+    display: none;
+    padding: 16px 872px 16px 16px;
+  }
+
+  .logoMovil {
+    display: revert;
+    height: 24px;
+    padding: 20px;
+  }
+
+  #carrito {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: #494f51;
+    color: white;
+    height: 24px;
+    position: absolute;
+    left: 80%;
+    right: 72.88%;
+    top: calc(50% - 32px / 2);
+    bottom: 0%;
+  }
+
+  .olivia {
+    position: absolute;
+    width: 35px;
+    height: 32px;
+    left: 89%;
+    top: calc(50% - 37px / 2);
+    bottom: 16px;
+    background: #0cb093;
+    border-radius: 16px;
+    background-color: #494f51;
+  }
+
+  #img-search {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 74%;
+    top: calc(50% - 16px / 2);
+  }
+
+  .img-olivia {
+    width: 118px;
+  }
+
+  /* ---------------------- */
+
   .rectangulo {
     display: flex;
     margin-left: -26%;
