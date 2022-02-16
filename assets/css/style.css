@@ -297,14 +297,21 @@ header {
     color: #000000;
 }
 
+
+/* ------------------- Seccion de login y registro -------------------- */
+
 .seccionLogReg,
 .login {
     height: 100%;
     background-color: #efefef;
 }
 
+.logo {
+    padding: 5px 16px 1px;
+    width: 10px;
+}
+
 .seccionLogReg {
-    position: absolute;
     left: calc(50% - 320px / 2);
     top: 100px;
     margin: 0;
@@ -366,7 +373,7 @@ header {
 
 .cuadroFondo {
     position: absolute;
-    width: 1400px;
+    width: 30vw;
     height: 264px;
     top: 64px;
     background: #0cb093;
@@ -420,4 +427,122 @@ header {
     backdrop-filter: blur(4px);
     padding: 16px 0;
     top: 1300px;
+}
+
+
+/*------------------------- Mobile --------------------------*/
+
+@media (max-width: 414px) {
+    body {
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        padding: 5px 1px 1px 0px;
+        width: 100px;
+    }
+    .cuadroFondo {
+        width: 98vw;
+        height: 264px;
+        top: 64px;
+        background: #0cb093;
+        z-index: -3;
+    }
+    .encabezado {
+        width: 100vw;
+        display: none;
+    }
+    .seccionLogReg {
+        margin-top: 35%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .cuadroLogReg {
+        border-radius: 16px;
+        width: 60%;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; */
+    }
+    .cuadroLogReg2 {
+        display: flex;
+        margin-left: 14%;
+    }
+    .textLogReg {
+        text-align: start;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 44px;
+    }
+    #Pass,
+    #pass,
+    #NomUsr,
+    #botonIniciarSesion,
+    #ValidPass {
+        border-radius: 16px;
+        display: block;
+        margin: 20px auto;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        width: 90%;
+        height: 32px;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    #botonIniciarSesion {
+        background: #494f51;
+        border-radius: 16px;
+        line-height: 16px;
+        color: #ffffff;
+    }
+    .mensajeRegistro {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 44px;
+    }
+    .cartmain {
+        width: 100vw;
+        position: absolute;
+        right: 60px;
+    }
+    .footer_login {
+        position: absolute;
+        max-width: 1024px;
+        display: flex;
+        width: 1024px;
+        height: 64px;
+        margin-top: 20px;
+        left: 15%;
+        bottom: 0px;
+        background-color: rgba(231, 231, 231, 0.25);
+        backdrop-filter: blur(4px);
+        padding: 16px 0;
+        top: 710px;
+    }
+    .categories3 {
+        position: absolute;
+        color: white;
+        background-color: rgba(73, 79, 81, 1);
+        border-radius: 10px;
+        width: 1100px;
+        height: 128px;
+        text-align: center;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        left: 90px;
+        top: 1160px;
+    }
 }
