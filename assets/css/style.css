@@ -859,12 +859,13 @@ header {
         display: none;
     }
     .seccionLogReg {
-        padding: 15%;
+        margin-left: 12%;
         display: flex;
         flex-wrap: nowrap;
         align-content: center;
         flex-direction: column;
         align-items: stretch;
+        background-color: transparent;
     }
     .cuadroLogReg {
         border-radius: 16px;
@@ -892,7 +893,8 @@ header {
     #pass,
     #NomUsr,
     #botonIniciarSesion,
-    #ValidPass {
+    #ValidPass,
+    #vpass {
         border-radius: 16px;
         display: block;
         margin: 20px auto;
