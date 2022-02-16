@@ -13,12 +13,37 @@
       rel="stylesheet"
     />
     <title>Registro</title>
+<<<<<<< HEAD
+</head>
+<header class="encabezado">
+    <%- include('../partials/header') %>
+</header>
+=======
   </head>
   <header><%- include('../partials/header') %></header>
+>>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2
 
   <body>
     <div class="cuadroFondo"></div>
     <section class="seccionLogReg">
+<<<<<<< HEAD
+        <section class="cuadroLogReg2">
+            <form class="cuadroLogReg" action="/api/users/register" method="post">
+                <h2 class="textLogReg">¡Registrate!</h2>
+                <input type="email" name="email" id="NomUsr" placeholder="Tu email" />
+                <input type="password" name="pass" id="Pass" required placeholder="Tu nueva contraseña" />
+                <input type="password" name="ValidPass" id="pass" required placeholder="Repite tu contraseña" />
+                <button id="botonIniciarSesion">Crear Cuenta</button>
+            </form>
+        </section>
+    </section>
+    <p class="mensajeRegistro">
+        ¿Ya tienes Cuenta? <a href="/login">Inicia Sesión</a>
+    </p>
+</body>
+
+</html>
+=======
       <section class="cuadroLogReg2">
         <form class="cuadroLogReg" action="/api/users/register" method="post">
           <h2 class="textLogReg">¡Registrate!</h2>
@@ -63,3 +88,4 @@
     <script src="../../js/register.js"></script>
   </body>
 </html>
+>>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2

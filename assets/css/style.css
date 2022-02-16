@@ -1,3 +1,4 @@
+/* HEADER */
 header {
   position: absolute;
   height: 64px;
@@ -29,6 +30,11 @@ header {
   padding: 16px 872px 16px 16px;
 }
 
+.logoMovil {
+  display: none;
+}
+
+/* Carrito */
 #carrito {
   border: solid 2px black;
   border-radius: 50%;
@@ -441,18 +447,77 @@ header {
 }
 
 @media (max-width: 414px) {
+  /* ------HEADER---------- */
+
   header {
-    display: none;
-    position: absolute;
-    height: 64px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    padding: 16px;
-    backdrop-filter: blur(4px);
-    background-color: rgba(231, 231, 231, 0.25);
-    justify-content: space-between;
+    /* display: none; /* ocultar */
+    width: 100%;
+    position: fixed;
   }
+  .search {
+    padding: 8px 40px 8px 16px;
+    position: absolute;
+    height: 32px;
+    width: 45%;
+    left: 80px;
+    top: calc(50% - 32px / 2);
+    margin: 0px 872px 16px 16px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .logo {
+    display: none;
+    padding: 16px 872px 16px 16px;
+  }
+
+  .logoMovil {
+    display: revert;
+    height: 24px;
+    padding: 20px;
+  }
+
+  #carrito {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: #494f51;
+    color: white;
+    height: 24px;
+    position: absolute;
+    left: 80%;
+    right: 72.88%;
+    top: calc(50% - 32px / 2);
+    bottom: 0%;
+  }
+
+  .olivia {
+    position: absolute;
+    width: 35px;
+    height: 32px;
+    left: 89%;
+    top: calc(50% - 37px / 2);
+    bottom: 16px;
+    background: #0cb093;
+    border-radius: 16px;
+    background-color: #494f51;
+  }
+
+  #img-search {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 74%;
+    top: calc(50% - 16px / 2);
+  }
+
+  .img-olivia {
+    width: 118px;
+  }
+
+  /* ---------------------- */
+
   .rectangulo {
     display: flex;
     margin-left: -26%;
@@ -555,8 +620,136 @@ header {
     margin-top: 104%;
     margin-left: -20%;
     font-size: 24px;
+<<<<<<< HEAD
+}
+
+.coca {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 128px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss1 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 388px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss2 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 648px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss3 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 908px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.coca1 {
+    position: absolute;
+    height: 240px;
+    left: 8px;
+    right: 8px;
+    top: 8px;
+    width: 228px;
+    height: 240px;
+    border-radius: 8px;
+}
+
+.titulop {
+    position: absolute;
+    height: 64px;
+    left: 8px;
+    right: 96px;
+    top: 236px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    color: #000000;
+}
+
+.line {
+    position: absolute;
+    width: 64px;
+    right: 75px;
+    bottom: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    transform: rotate(90deg);
+}
+
+.puntosc {
+    position: absolute;
+    width: 72px;
+    height: 24px;
+    right: 28px;
+    top: 246px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    color: #000000;
+}
+
+.puntosp {
+    position: absolute;
+    width: 72px;
+    height: 24px;
+    right: 28px;
+    top: 275px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 11px;
+    color: #000000;
+}
+
+
+/* ------------------- Seccion de login y registro -------------------- */
+
+.seccionLogReg,
+.login {
+    height: 100%;
+    background-color: #efefef;
+}
+
+.logo {
+    padding: 5px 16px 1px;
+    width: 10px;
+}
+
+.seccionLogReg {
+    left: calc(50% - 320px / 2);
+    top: 100px;
+    margin: 0;
+    padding: 0;
+=======
   }
   .promos {
+>>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -564,7 +757,89 @@ header {
     margin-left: 1%;
   }
 
+<<<<<<< HEAD
+.cuadroLogReg {
+    border-radius: 16px;
+    width: 320px;
+    padding: 40px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textLogReg {
+    text-align: start;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+#Pass,
+#NomUsr,
+#botonIniciarSesion {
+    border-radius: 16px;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 32px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#botonIniciarSesion {
+    background: #494f51;
+    border-radius: 16px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.mensajeRegistro {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 44px;
+}
+
+.cuadroFondo {
+    position: absolute;
+    width: 30vw;
+    height: 264px;
+    top: 64px;
+    background: #0cb093;
+}
+
+.cartmain {
+    width: 100vw;
+    position: absolute;
+    right: 60px;
+}
+
+.footer_login {
+    position: absolute;
+    max-width: 1024px;
+    display: flex;
+    width: 1024px;
+    height: 64px;
+    margin-top: 20px;
+    left: 15%;
+    bottom: 0px;
+    background-color: rgba(231, 231, 231, 0.25);
+    backdrop-filter: blur(4px);
+    padding: 16px 0;
+    top: 710px;
+}
+
+.categories3 {
+=======
   .categories3 {
+>>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2
     position: absolute;
     color: white;
     background-color: rgba(73, 79, 81, 1);
@@ -579,3 +854,139 @@ header {
     margin-left: -18%;
   }
 }
+<<<<<<< HEAD
+
+.footer_PRODUCT {
+    position: absolute;
+    max-width: 1024px;
+    display: flex;
+    width: 1024px;
+    height: 64px;
+    margin-top: 20px;
+    left: 15%;
+    bottom: 0px;
+    background-color: rgba(231, 231, 231, 0.25);
+    backdrop-filter: blur(4px);
+    padding: 16px 0;
+    top: 1300px;
+}
+
+
+/*------------------------- Mobile --------------------------*/
+
+@media (max-width: 414px) {
+    body {
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        padding: 5px 1px 1px 0px;
+        width: 100px;
+    }
+    .cuadroFondo {
+        width: 98vw;
+        height: 264px;
+        top: 64px;
+        background: #0cb093;
+        z-index: -3;
+    }
+    .encabezado {
+        width: 100vw;
+        display: none;
+    }
+    .seccionLogReg {
+        margin-top: 35%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .cuadroLogReg {
+        border-radius: 16px;
+        width: 60%;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; */
+    }
+    .cuadroLogReg2 {
+        display: flex;
+        margin-left: 14%;
+    }
+    .textLogReg {
+        text-align: start;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 44px;
+    }
+    #Pass,
+    #pass,
+    #NomUsr,
+    #botonIniciarSesion,
+    #ValidPass {
+        border-radius: 16px;
+        display: block;
+        margin: 20px auto;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        width: 90%;
+        height: 32px;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    #botonIniciarSesion {
+        background: #494f51;
+        border-radius: 16px;
+        line-height: 16px;
+        color: #ffffff;
+    }
+    .mensajeRegistro {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 44px;
+    }
+    .cartmain {
+        width: 100vw;
+        position: absolute;
+        right: 60px;
+    }
+    .footer_login {
+        position: absolute;
+        max-width: 1024px;
+        display: flex;
+        width: 1024px;
+        height: 64px;
+        margin-top: 20px;
+        left: 15%;
+        bottom: 0px;
+        background-color: rgba(231, 231, 231, 0.25);
+        backdrop-filter: blur(4px);
+        padding: 16px 0;
+        top: 710px;
+    }
+    .categories3 {
+        position: absolute;
+        color: white;
+        background-color: rgba(73, 79, 81, 1);
+        border-radius: 10px;
+        width: 1100px;
+        height: 128px;
+        text-align: center;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        left: 90px;
+        top: 1160px;
+    }
+}
+=======
+>>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2
