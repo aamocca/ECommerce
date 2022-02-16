@@ -1,7 +1,5 @@
 main {
   width: 100vw;
-  display: flex;
-  flex-direction: column;
 }
 
 .categories {
@@ -154,7 +152,7 @@ main {
 
 .textPedidos {
   position: absolute;
-  top: 1020px;
+  top: 1035px;
   left: 150px;
 }
 
@@ -387,6 +385,67 @@ h1 {
   top: -40px;
 }
 
+/*------------------------NEW ARTICLE ---------------------------*/
+
+.articulosPedidos {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.articulosinteresar {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 58%;
+  width: 100%;
+}
+.whiskey-coca {
+  width: 25%;
+  height: 328px;
+  border: solid black 1px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  border-radius: 16px;
+  margin: 16px;
+}
+.imgwhiskey {
+  height: 240px;
+  width: 228px;
+  margin: 16px 16px 0px 16px;
+
+  border-radius: 8px;
+}
+.whiskey-coca2 {
+  width: 25%;
+  height: 328px;
+  border: solid black 1px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  border-radius: 16px;
+  margin: 16px;
+}
+.whiskey-coca3 {
+  width: 25%;
+  height: 328px;
+  border: solid black 1px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  border-radius: 16px;
+  margin: 16px;
+}
+.whiskey-coca4 {
+  width: 25%;
+  height: 328px;
+  border: solid black 1px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  border-radius: 16px;
+  margin: 16px;
+}
+.texto2 {
+  margin-left: 66%;
+  margin-top: -25%;
+}
+.titulowhiskey {
+  margin: 15px;
+}
 @media (max-width: 414px) {
   .categories {
     position: absolute;
@@ -500,7 +559,7 @@ h1 {
     position: absolute;
     border-radius: 10px;
     height: 256px;
-    width: 1024px;
+    width: 100vw;
     top: 552px;
 
     left: 6%;
@@ -618,5 +677,149 @@ h1 {
   .moverAlgoAsi {
     display: flex;
     flex-direction: column;
+    top: 300px;
+  }
+  .textInteres {
+    position: absolute;
+    top: 950px;
+    left: 10px;
+  }
+  .textPedidos {
+    position: absolute;
+    top: 1750px;
+    left: 10px;
+  }
+  .coca2 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 128px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+  }
+
+  .miss4 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 388px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+  }
+
+  .miss5 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 648px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+  }
+
+  .miss6 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 908px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+  }
+  .articulosinteresar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 1030px;
+  }
+  .whiskey-coca {
+    width: 382px;
+    height: 144px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+  }
+  .imgwhiskey {
+    height: 128px;
+    width: 128px;
+    margin: 10px;
+
+    border-radius: 8px;
+  }
+  .whiskey-coca2 {
+    width: 382px;
+    height: 144px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+  }
+  .whiskey-coca3 {
+    width: 382px;
+    height: 144px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+  }
+  .whiskey-coca4 {
+    width: 382px;
+    height: 144px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+  }
+  .whiskey-coca5 {
+    display: none;
+    width: 382px;
+    height: 144px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+  }
+  .whiskey-coca6 {
+    display: none;
+    width: 382px;
+    height: 144px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+  }
+  .texto2 {
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+  .titulowhiskey {
+    margin-top: -35%;
+    margin-left: 40%;
+  }
+  .articulosPedidos {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .categories2 {
+    color: white;
+    background-color: rgba(73, 79, 81, 1);
+    border-radius: 10px;
+    width: 382px;
+    height: 375px;
+    /* text-align: center; */
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 90%;
+    margin-left: -25%;
+  }
+  .pies {
+    display: none;
   }
 }
