@@ -1,4 +1,15 @@
+/* ALERTA  */
+.myalert {
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+  padding: 15px;
+  background-color: white;
+  z-index: 5;
+}
+
 /* HEADER */
+
 header {
   position: absolute;
   height: 64px;

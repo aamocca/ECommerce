@@ -56,6 +56,8 @@ window.addEventListener("load", function () {
     }
   });
   form.addEventListener("click", (e) => {
+    localStorage.setItem("correo", email.value);
+    localStorage.setItem("contraseña", pass.value);
     if (
       email.value.split("").length == 0 &&
       pass.value.split("").length !== 0 &&
