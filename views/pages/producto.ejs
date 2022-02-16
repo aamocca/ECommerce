@@ -20,21 +20,12 @@
     <header><%- include('../partials/header2.ejs') %></header>
 
     <article class="rectangulo">
-      <img
-        class="promo1"
-        src="/img/D_NQ_NP_705560-MLA44741701921_012021-O.webp"
-      />
-      <img
-        class="promo2"
-        src="/img/D_NQ_NP_717087-MLA41598235072_042020-O.webp"
-      />
-      <img
-        class="promo3"
-        src="/img/D_NQ_NP_717087-MLA41598235072_042020-O.webp"
-      />
+      <img class="promo1" src="<%= product.gallery[0] %> " />
+      <img class="promo2" src="<%= product.gallery[1] %>" />
+      <img class="promo3" src="<%= product.gallery[2] %>" />
       <img
         class="bebida"
-        src="/img/images (2).jpeg"
+        src="<%=product.image%>"
         width="640px"
         height="520px"
       />
@@ -156,5 +147,6 @@
         <p id="texto-3">Google Play</p>
       </div>
     </footer>
+    <script src="../../js/product.js"></script>
   </body>
 </html>
