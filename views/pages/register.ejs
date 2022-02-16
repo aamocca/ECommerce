@@ -13,37 +13,12 @@
       rel="stylesheet"
     />
     <title>Registro</title>
-<<<<<<< HEAD
-</head>
-<header class="encabezado">
-    <%- include('../partials/header') %>
-</header>
-=======
   </head>
-  <header><%- include('../partials/header') %></header>
->>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2
+  <header class="encabezado"><%- include('../partials/header') %></header>
 
   <body>
     <div class="cuadroFondo"></div>
     <section class="seccionLogReg">
-<<<<<<< HEAD
-        <section class="cuadroLogReg2">
-            <form class="cuadroLogReg" action="/api/users/register" method="post">
-                <h2 class="textLogReg">¡Registrate!</h2>
-                <input type="email" name="email" id="NomUsr" placeholder="Tu email" />
-                <input type="password" name="pass" id="Pass" required placeholder="Tu nueva contraseña" />
-                <input type="password" name="ValidPass" id="pass" required placeholder="Repite tu contraseña" />
-                <button id="botonIniciarSesion">Crear Cuenta</button>
-            </form>
-        </section>
-    </section>
-    <p class="mensajeRegistro">
-        ¿Ya tienes Cuenta? <a href="/login">Inicia Sesión</a>
-    </p>
-</body>
-
-</html>
-=======
       <section class="cuadroLogReg2">
         <form class="cuadroLogReg" action="/api/users/register" method="post">
           <h2 class="textLogReg">¡Registrate!</h2>
@@ -66,26 +41,12 @@
           <p id="fraseValidar"></p>
           <button id="botonIniciarSesion">Crear Cuenta</button>
         </form>
-
-        <p class="mensajeRegistro">
-          ¿Ya tienes Cuenta? <a href="/login">Inicia Sesión</a>
-        </p>
       </section>
+      <p class="mensajeRegistro">
+        ¿Ya tienes Cuenta? <a href="/login">Inicia Sesión</a>
+      </p>
     </section>
-    <footer>
-      <div class="footer_login">
-        <img id="img-twitter" src="/img/twitter.svg" />
-        <img id="img-facebook" src="/img/facebook.svg" />
-        <img id="img-instagram" src="/img/instagram.svg" />
-        <img id="img-youtube" src="/img/youtube.svg" />
-        <p id="texto">© MiEcommerce. Todos los derechos reservados.</p>
-        <img id="img-appStore" src="/img/apple.svg" />
-        <p id="texto-2">App Store</p>
-        <img id="img-playStore" src="/img/google-play.svg" />
-        <p id="texto-3">Google Play</p>
-      </div>
-    </footer>
+
     <script src="../../js/register.js"></script>
   </body>
 </html>
->>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2

@@ -538,7 +538,7 @@ header {
     margin-top: 25%;
   }
   .promo1 {
-    display: none;
+    top: 434px;
     position: absolute;
     margin: 8px 8px 8px;
     width: 48px;
@@ -546,7 +546,8 @@ header {
     border-radius: 8px;
   }
   .promo2 {
-    display: none;
+    top: 434px;
+    left: 84px;
     position: absolute;
     margin: 8px 8px 8px;
     width: 48px;
@@ -554,7 +555,8 @@ header {
     border-radius: 8px;
   }
   .promo3 {
-    display: none;
+    top: 434px;
+    left: 164px;
     position: absolute;
     margin: 8px 8px 8px;
     width: 48px;
@@ -620,10 +622,9 @@ header {
     margin-top: 104%;
     margin-left: -20%;
     font-size: 24px;
-<<<<<<< HEAD
-}
+  }
 
-.coca {
+  .coca {
     position: absolute;
     width: 244px;
     height: 328px;
@@ -631,9 +632,9 @@ header {
     top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-}
+  }
 
-.miss1 {
+  .miss1 {
     position: absolute;
     width: 244px;
     height: 328px;
@@ -641,9 +642,9 @@ header {
     top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-}
+  }
 
-.miss2 {
+  .miss2 {
     position: absolute;
     width: 244px;
     height: 328px;
@@ -651,9 +652,9 @@ header {
     top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-}
+  }
 
-.miss3 {
+  .miss3 {
     position: absolute;
     width: 244px;
     height: 328px;
@@ -661,9 +662,9 @@ header {
     top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-}
+  }
 
-.coca1 {
+  .coca1 {
     position: absolute;
     height: 240px;
     left: 8px;
@@ -672,9 +673,9 @@ header {
     width: 228px;
     height: 240px;
     border-radius: 8px;
-}
+  }
 
-.titulop {
+  .titulop {
     position: absolute;
     height: 64px;
     left: 8px;
@@ -687,18 +688,18 @@ header {
     line-height: 20px;
     /* or 125% */
     color: #000000;
-}
+  }
 
-.line {
+  .line {
     position: absolute;
     width: 64px;
     right: 75px;
     bottom: 38px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     transform: rotate(90deg);
-}
+  }
 
-.puntosc {
+  .puntosc {
     position: absolute;
     width: 72px;
     height: 24px;
@@ -711,9 +712,9 @@ header {
     line-height: 20px;
     /* or 125% */
     color: #000000;
-}
+  }
 
-.puntosp {
+  .puntosp {
     position: absolute;
     width: 72px;
     height: 24px;
@@ -725,31 +726,28 @@ header {
     font-size: 8px;
     line-height: 11px;
     color: #000000;
-}
+  }
 
+  /* ------------------- Seccion de login y registro -------------------- */
 
-/* ------------------- Seccion de login y registro -------------------- */
-
-.seccionLogReg,
-.login {
+  .seccionLogReg,
+  .login {
     height: 100%;
     background-color: #efefef;
-}
+  }
 
-.logo {
+  .logo {
     padding: 5px 16px 1px;
     width: 10px;
-}
+  }
 
-.seccionLogReg {
+  .seccionLogReg {
     left: calc(50% - 320px / 2);
     top: 100px;
     margin: 0;
     padding: 0;
-=======
   }
   .promos {
->>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -757,28 +755,27 @@ header {
     margin-left: 1%;
   }
 
-<<<<<<< HEAD
-.cuadroLogReg {
+  .cuadroLogReg {
     border-radius: 16px;
     width: 320px;
     padding: 40px;
     text-align: center;
     background: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+  }
 
-.textLogReg {
+  .textLogReg {
     text-align: start;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 44px;
-}
+  }
 
-#Pass,
-#NomUsr,
-#botonIniciarSesion {
+  #Pass,
+  #NomUsr,
+  #botonIniciarSesion {
     border-radius: 16px;
     display: block;
     margin: 20px auto;
@@ -789,39 +786,39 @@ header {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-}
+  }
 
-#botonIniciarSesion {
+  #botonIniciarSesion {
     background: #494f51;
     border-radius: 16px;
     line-height: 16px;
     color: #ffffff;
-}
+  }
 
-.mensajeRegistro {
+  .mensajeRegistro {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 44px;
-}
+  }
 
-.cuadroFondo {
+  .cuadroFondo {
     position: absolute;
     width: 30vw;
     height: 264px;
     top: 64px;
     background: #0cb093;
-}
+  }
 
-.cartmain {
+  .cartmain {
     width: 100vw;
     position: absolute;
     right: 60px;
-}
+  }
 
-.footer_login {
+  .footer_login {
     position: absolute;
     max-width: 1024px;
     display: flex;
@@ -834,12 +831,9 @@ header {
     backdrop-filter: blur(4px);
     padding: 16px 0;
     top: 710px;
-}
+  }
 
-.categories3 {
-=======
   .categories3 {
->>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2
     position: absolute;
     color: white;
     background-color: rgba(73, 79, 81, 1);
@@ -854,9 +848,111 @@ header {
     margin-left: -18%;
   }
 }
-<<<<<<< HEAD
 
 .footer_PRODUCT {
+  position: absolute;
+  max-width: 1024px;
+  display: flex;
+  width: 1024px;
+  height: 64px;
+  margin-top: 20px;
+  left: 15%;
+  bottom: 0px;
+  background-color: rgba(231, 231, 231, 0.25);
+  backdrop-filter: blur(4px);
+  padding: 16px 0;
+  top: 1300px;
+}
+
+/*------------------------- Mobile --------------------------*/
+
+@media (max-width: 414px) {
+  body {
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    padding: 5px 1px 1px 0px;
+    width: 100px;
+  }
+  .cuadroFondo {
+    width: 98vw;
+    height: 264px;
+    top: 64px;
+    background: #0cb093;
+    z-index: -3;
+  }
+  .encabezado {
+    width: 100vw;
+    display: none;
+  }
+  .seccionLogReg {
+    margin-top: 35%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .cuadroLogReg {
+    border-radius: 16px;
+    width: 60%;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; */
+  }
+  .cuadroLogReg2 {
+    display: flex;
+    margin-left: 14%;
+  }
+  .textLogReg {
+    text-align: start;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  #Pass,
+  #pass,
+  #NomUsr,
+  #botonIniciarSesion,
+  #ValidPass {
+    border-radius: 16px;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 90%;
+    height: 32px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  #botonIniciarSesion {
+    background: #494f51;
+    border-radius: 16px;
+    line-height: 16px;
+    color: #ffffff;
+  }
+  .mensajeRegistro {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 44px;
+  }
+  .cartmain {
+    width: 100vw;
+    position: absolute;
+    right: 60px;
+  }
+  .footer_login {
     position: absolute;
     max-width: 1024px;
     display: flex;
@@ -868,125 +964,19 @@ header {
     background-color: rgba(231, 231, 231, 0.25);
     backdrop-filter: blur(4px);
     padding: 16px 0;
-    top: 1300px;
+    top: 710px;
+  }
+  .categories3 {
+    position: absolute;
+    color: white;
+    background-color: rgba(73, 79, 81, 1);
+    border-radius: 10px;
+    width: 384px;
+    height: 375px;
+    text-align: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    left: 90px;
+    top: 1160px;
+  }
 }
-
-
-/*------------------------- Mobile --------------------------*/
-
-@media (max-width: 414px) {
-    body {
-        width: 98vw;
-        display: flex;
-        flex-direction: column;
-    }
-    .logo {
-        padding: 5px 1px 1px 0px;
-        width: 100px;
-    }
-    .cuadroFondo {
-        width: 98vw;
-        height: 264px;
-        top: 64px;
-        background: #0cb093;
-        z-index: -3;
-    }
-    .encabezado {
-        width: 100vw;
-        display: none;
-    }
-    .seccionLogReg {
-        margin-top: 35%;
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: center;
-        flex-direction: column;
-        align-items: stretch;
-    }
-    .cuadroLogReg {
-        border-radius: 16px;
-        width: 60%;
-        padding: 40px;
-        text-align: center;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        /* display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap; */
-    }
-    .cuadroLogReg2 {
-        display: flex;
-        margin-left: 14%;
-    }
-    .textLogReg {
-        text-align: start;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 44px;
-    }
-    #Pass,
-    #pass,
-    #NomUsr,
-    #botonIniciarSesion,
-    #ValidPass {
-        border-radius: 16px;
-        display: block;
-        margin: 20px auto;
-        border: 1px solid rgba(0, 0, 0, 0.5);
-        width: 90%;
-        height: 32px;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-    }
-    #botonIniciarSesion {
-        background: #494f51;
-        border-radius: 16px;
-        line-height: 16px;
-        color: #ffffff;
-    }
-    .mensajeRegistro {
-        text-align: center;
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 44px;
-    }
-    .cartmain {
-        width: 100vw;
-        position: absolute;
-        right: 60px;
-    }
-    .footer_login {
-        position: absolute;
-        max-width: 1024px;
-        display: flex;
-        width: 1024px;
-        height: 64px;
-        margin-top: 20px;
-        left: 15%;
-        bottom: 0px;
-        background-color: rgba(231, 231, 231, 0.25);
-        backdrop-filter: blur(4px);
-        padding: 16px 0;
-        top: 710px;
-    }
-    .categories3 {
-        position: absolute;
-        color: white;
-        background-color: rgba(73, 79, 81, 1);
-        border-radius: 10px;
-        width: 1100px;
-        height: 128px;
-        text-align: center;
-        justify-content: flex-start;
-        box-sizing: border-box;
-        left: 90px;
-        top: 1160px;
-    }
-}
-=======
->>>>>>> c5cca2b583270596e09e5b2e6a89b08991ee8aa2
