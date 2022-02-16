@@ -430,9 +430,20 @@ header {
 .promos {
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 60%;
   margin-left: 10%;
+}
+
+#validar {
+  position: absolute;
+  top: 178px;
+  left: 260px;
+}
+#fraseValidar {
+  position: absolute;
+  top: 200px;
+  left: 197px;
 }
 
 @media (max-width: 414px) {
