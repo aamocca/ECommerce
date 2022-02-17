@@ -1,0 +1,38 @@
+.fondo {
+  background-color: black;
+  transition: all 0.4s;
+  color: white;
+}
+.fondo h2 {
+  color: white;
+}
+.fondo p {
+  color: white;
+}
+.fondo h2.titulos {
+  color: black;
+}
+.fondo p.registrate {
+  color: black;
+}
+.fondo button {
+  color: white;
+  background-color: black;
+}
+.fondo button:hover {
+  background-color: white;
+  color: black;
+}
+button#modoOscuro {
+  border-radius: 28px;
+  z-index: 3;
+}
+/*.pDark {
+  color: white;
+}*/
+.luna {
+  height: 17px;
+}
+.white {
+  color: white;
+}

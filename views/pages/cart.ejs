@@ -7,6 +7,7 @@
     <link href="/css/cart.css" rel="stylesheet" />
     <link href="/css/style.css" rel="stylesheet" />
     <link href="/css/footer.css" rel="stylesheet" />
+    <link href="/css/jsfront.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Roboto -->
@@ -22,7 +23,7 @@
   </head>
   <!-- <title>Cart</title> -->
 
-  <body>
+  <body class="bodyEntero">
     <header>
       <nav><%- include('../partials/header2.ejs') %></nav>
     </header>
@@ -46,7 +47,7 @@
 
         <article class="caja2">
           <img class="burger" src="/img/combohamburguesa.jpg" alt="burger" />
-          <p class="desc">1 Combo Hamburguesa</p>
+          <p class="desc letras">1 Combo Hamburguesa</p>
           <button class="botonQuitar">Quitar</button>
           <input class="botonAdd" name="carrito2" type="number" value="1" />
           <p class="precio">5.000</p>
@@ -54,14 +55,14 @@
 
         <article class="caja3">
           <img class="coke" src="/img/images (1).jpeg" alt="botellita" />
-          <p class="desc">Coca Cola Lata 220mL Pack Original x8</p>
+          <p class="desc letras">Coca Cola Lata 220mL Pack Original x8</p>
           <button class="botonQuitar">Quitar</button>
           <input class="botonAdd" type="number" name="carrito3" value="1" />
           <p class="precio">1.520</p>
         </article>
 
         <article class="cajaPuntos">
-          <p class="totalPuntos">Total de Puntos</p>
+          <p class="totalPuntos letras">Total de Puntos</p>
           <p class="precio">26.420</p>
         </article>
 
@@ -83,5 +84,6 @@
         <p id="texto-3">Google Play</p>
       </div>
     </footer>
+    <script src="../../js/general.js"></script>
   </body>
 </html>
