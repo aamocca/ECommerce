@@ -32,17 +32,26 @@
           <input
             type="password"
             name="Pass"
-            id="Pass"
+            id="pass"
             required
             placeholder="Tu contraseña"
           />
           <button id="botonIniciarSesion">Iniciar Sesión</button>
+          <input type="checkbox" class="remember" />
+          <label for="remember" class="remember">Recuérdame</label>
         </form>
-
-        <p class="mensajeRegistro registrate">
-          ¿No tienes cuenta? <a href="/register">Registrate</a>
-        </p>
       </section>
+      <p class="mensajeRegistro registrate">
+        ¿No tienes cuenta? <a href="/register">Registrate</a>
+      </p>
+    </section>
+    <section class="myalert">
+      <p>Titulo del mensaje</p>
+      <p>
+        Cuerpo del mensaje con texto enriquecido <br />y camacidad multilenea
+      </p>
+      <button class="cerrar">Secondary Button</button>
+      <button class="aceptar">Primary Button</button>
     </section>
     <footer>
       <div class="footer_login">
@@ -58,5 +67,6 @@
       </div>
     </footer>
     <script src="../../js/general.js"></script>
+    <script src="../../js/login.js"></script>
   </body>
 </html>
