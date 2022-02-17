@@ -1,695 +1,105 @@
 main {
-  width: 100vw;
+    width: 100vw;
 }
 
 .categories {
-  position: absolute;
-  color: white;
-  background-color: rgba(73, 79, 81, 1);
-  border-radius: 10px;
-  width: 1100px;
-  height: 128px;
-  text-align: center;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  top: 130px;
-  left: 120px;
-}
-
-.lista_categorias {
-  position: relative;
-  color: white;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
-  margin-right: 40px;
-  font-size: 20px;
-}
-
-.line1 {
-  position: absolute;
-  width: 90px;
-  bottom: 55px;
-  border: 1px solid rgb(255, 255, 255);
-  transform: rotate(90deg);
-  left: 140px;
-}
-
-.line2 {
-  position: absolute;
-  width: 90px;
-  bottom: 55px;
-  border: 1px solid rgb(255, 255, 255);
-  transform: rotate(90deg);
-  left: 280px;
-}
-
-.line3 {
-  position: absolute;
-  width: 90px;
-  bottom: 55px;
-  border: 1px solid rgb(255, 255, 255);
-  transform: rotate(90deg);
-  left: 400px;
-}
-
-.line4 {
-  position: absolute;
-  width: 90px;
-  bottom: 55px;
-  border: 1px solid rgb(255, 255, 255);
-  transform: rotate(90deg);
-  left: 560px;
-}
-
-.line5 {
-  position: absolute;
-  width: 90px;
-  bottom: 55px;
-  border: 1px solid rgb(255, 255, 255);
-  transform: rotate(90deg);
-  left: 670px;
-}
-
-.line6 {
-  position: absolute;
-  width: 90px;
-  bottom: 55px;
-  border: 1px solid rgb(255, 255, 255);
-  transform: rotate(90deg);
-  left: 810px;
-}
-
-.line7 {
-  position: absolute;
-  width: 90px;
-  bottom: 55px;
-  border: 1px solid rgb(255, 255, 255);
-  transform: rotate(90deg);
-  left: 920px;
-}
-
-/* -------------TE PUEDE INTERESAR---------------- */
-
-.textInteres {
-  position: absolute;
-  top: 640px;
-  left: 150px;
-}
-
-.coca2 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 128px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss4 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 388px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss5 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 648px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss6 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 908px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.moverAlgoAsi {
-  position: absolute;
-  bottom: 660px;
-  left: 20px;
-}
-
-.moverAlgoAsi2 {
-  position: absolute;
-  bottom: 280px;
-  left: 20px;
-}
-
-.textPedidos {
-  position: absolute;
-  top: 1035px;
-  left: 150px;
-}
-
-.moverAlgoAsi3 {
-  position: absolute;
-  bottom: -80px;
-  left: 20px;
-}
-
-.coca3 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 128px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss7 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 388px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss8 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 648px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss9 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 908px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.coca4 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 128px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss10 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 388px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss11 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 648px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.miss12 {
-  position: absolute;
-  width: 244px;
-  height: 328px;
-  left: 908px;
-  top: 744px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-}
-
-.categories2 {
-  position: absolute;
-  color: white;
-  background-color: rgba(73, 79, 81, 1);
-  border-radius: 10px;
-  width: 1100px;
-  height: 128px;
-  text-align: center;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  left: 120px;
-  top: 1830px;
-}
-
-.fondoBonus {
-  position: absolute;
-  width: 98vw;
-  height: 264px;
-  top: 350px;
-  background: #0cb093;
-}
-
-p,
-h1 {
-  font-family: "Roboto", sans-serif;
-}
-
-.masterBonus {
-  position: absolute;
-  border-radius: 10px;
-  height: 256px;
-  width: 1024px;
-  top: 322px;
-  left: 12%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.imgDisney {
-  height: 256px;
-  width: 500px;
-  left: 0px;
-  top: 0px;
-  border-radius: 16px;
-}
-
-.logoDisney {
-  position: absolute;
-  border-radius: 5px;
-  top: 168px;
-  left: 8px;
-}
-
-.imgHBO {
-  height: 256px;
-  width: 500px;
-  left: 0px;
-  top: 0px;
-  border-radius: 16px;
-}
-
-.logoHBO {
-  position: absolute;
-  border-radius: 5px;
-  width: 80px;
-  height: 80px;
-  top: 168px;
-  right: 412px;
-}
-
-#tituloDisney {
-  position: absolute;
-  height: 88px;
-  left: 125px;
-  right: 8px;
-  bottom: 5px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-}
-
-#tituloHBO {
-  position: absolute;
-  height: 88px;
-  left: 640px;
-  right: 8px;
-  bottom: 5px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-}
-
-.canjeando1 {
-  position: absolute;
-  height: 88px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  left: 125px;
-  right: 8px;
-  top: 160px;
-}
-
-.canjeando2 {
-  position: absolute;
-  height: 88px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
-  display: flex;
-  align-items: center;
-  left: 640px;
-  right: 8px;
-  color: #ffffff;
-  top: 160px;
-}
-
-.Abajo {
-  position: absolute;
-  top: 900px;
-}
-.moverArribaTePuedeInteresar {
-  position: absolute;
-  top: -40px;
-}
-
-/*------------------------NEW ARTICLE ---------------------------*/
-
-.articulosPedidos {
-  display: flex;
-  flex-wrap: nowrap;
-  margin-top: 5%;
-  width: 100%;
-}
-
-.articulosinteresar {
-  display: flex;
-  flex-wrap: nowrap;
-  margin-top: 58%;
-  width: 100%;
-}
-.whiskey-coca {
-  width: 25%;
-  height: 328px;
-  border: solid black 1px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-  margin: 16px;
-}
-.imgwhiskey {
-  height: 240px;
-  width: 228px;
-  margin: 16px 16px 0px 16px;
-
-  border-radius: 8px;
-}
-.whiskey-coca2 {
-  width: 25%;
-  height: 328px;
-  border: solid black 1px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-  margin: 16px;
-}
-.whiskey-coca3 {
-  width: 25%;
-  height: 328px;
-  border: solid black 1px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-  margin: 16px;
-}
-.whiskey-coca4 {
-  width: 25%;
-  height: 328px;
-  border: solid black 1px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 16px;
-  margin: 16px;
-}
-.texto2 {
-  margin-left: 66%;
-  margin-top: -25%;
-}
-.titulowhiskey {
-  margin: 15px;
-}
-@media (max-width: 414px) {
-  .categories {
     position: absolute;
     color: white;
     background-color: rgba(73, 79, 81, 1);
     border-radius: 10px;
-    width: 382px;
-    height: 375px;
-    /* text-align: center; */
-    /* justify-content: flex-start; */
-    flex-direction: column;
+    width: 1100px;
+    height: 128px;
+    text-align: center;
+    justify-content: flex-start;
     box-sizing: border-box;
     top: 130px;
     left: 120px;
-    left: 7vw;
-  }
-  .lista_categorias {
-    justify-content: flex-start;
-    position: absolute;
+}
+
+.lista_categorias {
+    position: relative;
     color: white;
     list-style: none;
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    margin-top: 8px;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 40px;
     font-size: 20px;
-  }
-  .line1 {
-    display: none;
-  }
+}
 
-  .line2 {
-    display: none;
-  }
-
-  .line3 {
-    display: none;
-  }
-
-  .line4 {
-    display: none;
-  }
-
-  .line5 {
-    display: none;
-  }
-
-  .line6 {
-    display: none;
-  }
-
-  .line7 {
-    display: none;
-  }
-  .electronica {
-    margin-bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .alimentos {
-    margin-bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .bebidas {
-    margin-bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .indumentaria {
-    margin-bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .juegos {
-    margin-bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .automotor {
-    margin-bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .hogar {
-    margin-bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .otros {
-    margin-bottom: -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .fondoBonus {
+.line1 {
     position: absolute;
-    width: 100vw;
-    height: 264px;
-    top: 650px;
-    background: #0cb093;
-  }
-  .masterBonus {
-    position: absolute;
-    border-radius: 10px;
-    height: 256px;
-    width: 100vw;
-    top: 552px;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 140px;
+}
 
-    left: 6%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .imgDisney {
-    margin-bottom: 8px;
-    height: 194px;
-    width: 382px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
-  }
-  .logoDisney {
+.line2 {
     position: absolute;
-    border-radius: 5px;
-    top: 98px;
-    left: 8px;
-  }
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 280px;
+}
 
-  .imgHBO {
-    margin-bottom: 8px;
-    height: 194px;
-    width: 382px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
-  }
+.line3 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 400px;
+}
 
-  .logoHBO {
+.line4 {
     position: absolute;
-    border-radius: 5px;
-    width: 80px;
-    height: 80px;
-    top: 298px;
-    left: 8px;
-  }
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 560px;
+}
 
-  #tituloDisney {
+.line5 {
     position: absolute;
-    height: 88px;
-    left: 110px;
-    right: 8px;
-    top: 53px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-  }
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 670px;
+}
 
-  #tituloHBO {
+.line6 {
     position: absolute;
-    height: 88px;
-    left: 110px;
-    right: 8px;
-    top: 253px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-  }
-  .canjeando1 {
-    display: none;
-    position: absolute;
-    height: 88px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 810px;
+}
 
-    align-items: center;
-    color: blue;
-    left: 125px;
-    right: 8px;
-    top: 160px;
-  }
+.line7 {
+    position: absolute;
+    width: 90px;
+    bottom: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    transform: rotate(90deg);
+    left: 920px;
+}
 
-  .canjeando2 {
-    display: none;
-    position: absolute;
-    height: 88px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
 
-    align-items: center;
-    left: 640px;
-    right: 8px;
-    color: blue;
-    top: 160px;
-  }
-  .Abajo {
+/* -------------TE PUEDE INTERESAR---------------- */
+
+.textInteres {
     position: absolute;
-    top: 900px;
-  }
-  .moverArribaTePuedeInteresar {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 1000px;
-  }
-  .moverAlgoAsi {
-    display: flex;
-    flex-direction: column;
-    top: 300px;
-  }
-  .textInteres {
-    position: absolute;
-    top: 950px;
-    left: 10px;
-  }
-  .textPedidos {
-    position: absolute;
-    top: 1750px;
-    left: 10px;
-  }
-  .coca2 {
+    top: 640px;
+    left: 150px;
+}
+
+.coca2 {
     position: absolute;
     width: 244px;
     height: 328px;
@@ -697,9 +107,9 @@ h1 {
     top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-  }
+}
 
-  .miss4 {
+.miss4 {
     position: absolute;
     width: 244px;
     height: 328px;
@@ -707,9 +117,9 @@ h1 {
     top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-  }
+}
 
-  .miss5 {
+.miss5 {
     position: absolute;
     width: 244px;
     height: 328px;
@@ -717,9 +127,9 @@ h1 {
     top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-  }
+}
 
-  .miss6 {
+.miss6 {
     position: absolute;
     width: 244px;
     height: 328px;
@@ -727,99 +137,680 @@ h1 {
     top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-  }
-  .articulosinteresar {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin-top: 1030px;
-  }
-  .whiskey-coca {
-    width: 382px;
-    height: 144px;
-    border: solid black 1px;
-    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
-    border-radius: 16px;
-    margin: 16px;
-  }
-  .imgwhiskey {
-    height: 128px;
-    width: 128px;
-    margin: 10px;
+}
 
-    border-radius: 8px;
-  }
-  .whiskey-coca2 {
-    width: 382px;
-    height: 144px;
-    border: solid black 1px;
+.moverAlgoAsi {
+    position: absolute;
+    bottom: 660px;
+    left: 20px;
+}
+
+.moverAlgoAsi2 {
+    position: absolute;
+    bottom: 280px;
+    left: 20px;
+}
+
+.textPedidos {
+    position: absolute;
+    top: 1035px;
+    left: 150px;
+}
+
+.moverAlgoAsi3 {
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+}
+
+.coca3 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 128px;
+    top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-    margin: 16px;
-  }
-  .whiskey-coca3 {
-    width: 382px;
-    height: 144px;
-    border: solid black 1px;
+}
+
+.miss7 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 388px;
+    top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-    margin: 16px;
-  }
-  .whiskey-coca4 {
-    width: 382px;
-    height: 144px;
-    border: solid black 1px;
+}
+
+.miss8 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 648px;
+    top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-    margin: 16px;
-  }
-  .whiskey-coca5 {
-    display: none;
-    width: 382px;
-    height: 144px;
-    border: solid black 1px;
+}
+
+.miss9 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 908px;
+    top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-    margin: 16px;
-  }
-  .whiskey-coca6 {
-    display: none;
-    width: 382px;
-    height: 144px;
-    border: solid black 1px;
+}
+
+.coca4 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 128px;
+    top: 744px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-    margin: 16px;
-  }
-  .texto2 {
-    margin-left: 40%;
-    margin-top: 5%;
-  }
-  .titulowhiskey {
-    margin-top: -35%;
-    margin-left: 40%;
-  }
-  .articulosPedidos {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 15%;
-    width: 100%;
-    flex-direction: column;
-  }
-  .categories2 {
+}
+
+.miss10 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 388px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss11 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 648px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.miss12 {
+    position: absolute;
+    width: 244px;
+    height: 328px;
+    left: 908px;
+    top: 744px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+}
+
+.categories2 {
+    position: absolute;
     color: white;
     background-color: rgba(73, 79, 81, 1);
     border-radius: 10px;
-    width: 382px;
-    height: 375px;
-    /* text-align: center; */
-    /* justify-content: flex-start; */
-    flex-direction: column;
+    width: 1100px;
+    height: 128px;
+    text-align: center;
+    justify-content: flex-start;
     box-sizing: border-box;
-    margin-top: 90%;
-    margin-left: -25%;
-  }
-  .pies {
-    display: none;
-  }
+    left: 120px;
+    top: 1830px;
+}
+
+.fondoBonus {
+    position: absolute;
+    width: 98vw;
+    height: 264px;
+    top: 350px;
+    background: #0cb093;
+}
+
+p,
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+.masterBonus {
+    position: absolute;
+    border-radius: 10px;
+    height: 256px;
+    width: 1024px;
+    top: 322px;
+    left: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDisney {
+    height: 256px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.logoDisney {
+    position: absolute;
+    border-radius: 5px;
+    top: 168px;
+    left: 8px;
+}
+
+.imgHBO {
+    height: 256px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.logoHBO {
+    position: absolute;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    top: 168px;
+    right: 412px;
+}
+
+#tituloDisney {
+    position: absolute;
+    height: 88px;
+    left: 125px;
+    right: 8px;
+    bottom: 5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+#tituloHBO {
+    position: absolute;
+    height: 88px;
+    left: 640px;
+    right: 8px;
+    bottom: 5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.canjeando1 {
+    position: absolute;
+    height: 88px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    left: 125px;
+    right: 8px;
+    top: 160px;
+}
+
+.canjeando2 {
+    position: absolute;
+    height: 88px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    left: 640px;
+    right: 8px;
+    color: #ffffff;
+    top: 160px;
+}
+
+.Abajo {
+    position: absolute;
+    top: 900px;
+}
+
+.moverArribaTePuedeInteresar {
+    position: absolute;
+    top: -40px;
+}
+
+
+/*------------------------NEW ARTICLE ---------------------------*/
+
+.articulosPedidos {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.articulosinteresar {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 58%;
+    width: 100%;
+}
+
+.whiskey-coca {
+    width: 25%;
+    height: 328px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+}
+
+.imgwhiskey {
+    height: 240px;
+    width: 228px;
+    margin: 16px 16px 0px 16px;
+    border-radius: 8px;
+}
+
+.whiskey-coca2 {
+    width: 25%;
+    height: 328px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+}
+
+.whiskey-coca3 {
+    width: 25%;
+    height: 328px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+}
+
+.whiskey-coca4 {
+    width: 25%;
+    height: 328px;
+    border: solid black 1px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    margin: 16px;
+}
+
+.texto2 {
+    margin-left: 66%;
+    margin-top: -25%;
+}
+
+.titulowhiskey {
+    margin: 15px;
+}
+
+@media (max-width: 414px) {
+    .categories {
+        position: absolute;
+        color: white;
+        background-color: rgba(73, 79, 81, 1);
+        border-radius: 10px;
+        width: 382px;
+        height: 375px;
+        /* text-align: center; */
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        box-sizing: border-box;
+        top: 130px;
+        left: 120px;
+        left: 7vw;
+    }
+    .lista_categorias {
+        justify-content: flex-start;
+        position: absolute;
+        color: white;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        margin-top: 8px;
+        font-size: 20px;
+    }
+    .line1 {
+        display: none;
+    }
+    .line2 {
+        display: none;
+    }
+    .line3 {
+        display: none;
+    }
+    .line4 {
+        display: none;
+    }
+    .line5 {
+        display: none;
+    }
+    .line6 {
+        display: none;
+    }
+    .line7 {
+        display: none;
+    }
+    .electronica {
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .alimentos {
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .bebidas {
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .indumentaria {
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .juegos {
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .automotor {
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hogar {
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .otros {
+        margin-bottom: -20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .fondoBonus {
+        position: absolute;
+        width: 100vw;
+        height: 264px;
+        top: 650px;
+        background: #0cb093;
+    }
+    .masterBonus {
+        position: absolute;
+        border-radius: 10px;
+        height: 256px;
+        width: 100vw;
+        top: 552px;
+        left: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .imgDisney {
+        margin-bottom: 8px;
+        height: 194px;
+        width: 382px;
+        left: 0px;
+        top: 0px;
+        border-radius: 16px;
+    }
+    .logoDisney {
+        position: absolute;
+        border-radius: 5px;
+        top: 98px;
+        left: 8px;
+    }
+    .imgHBO {
+        margin-bottom: 8px;
+        height: 194px;
+        width: 382px;
+        left: 0px;
+        top: 0px;
+        border-radius: 16px;
+    }
+    .logoHBO {
+        position: absolute;
+        border-radius: 5px;
+        width: 80px;
+        height: 80px;
+        top: 298px;
+        left: 8px;
+    }
+    #tituloDisney {
+        position: absolute;
+        height: 88px;
+        left: 110px;
+        right: 8px;
+        top: 53px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+    }
+    #tituloHBO {
+        position: absolute;
+        height: 88px;
+        left: 110px;
+        right: 8px;
+        top: 253px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+    }
+    .canjeando1 {
+        display: none;
+        position: absolute;
+        height: 88px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        align-items: center;
+        color: blue;
+        left: 125px;
+        right: 8px;
+        top: 160px;
+    }
+    .canjeando2 {
+        display: none;
+        position: absolute;
+        height: 88px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        align-items: center;
+        left: 640px;
+        right: 8px;
+        color: blue;
+        top: 160px;
+    }
+    .Abajo {
+        position: absolute;
+        top: 900px;
+    }
+    .moverArribaTePuedeInteresar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 1000px;
+    }
+    .moverAlgoAsi {
+        display: flex;
+        flex-direction: column;
+        top: 300px;
+    }
+    .textInteres {
+        position: absolute;
+        top: 950px;
+        left: 10px;
+    }
+    .textPedidos {
+        position: absolute;
+        top: 1572px;
+        left: 23px;
+    }
+    .coca2 {
+        position: absolute;
+        width: 244px;
+        height: 328px;
+        left: 128px;
+        top: 744px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+    }
+    .miss4 {
+        position: absolute;
+        width: 244px;
+        height: 328px;
+        left: 388px;
+        top: 744px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+    }
+    .miss5 {
+        position: absolute;
+        width: 244px;
+        height: 328px;
+        left: 648px;
+        top: 744px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+    }
+    .miss6 {
+        position: absolute;
+        width: 244px;
+        height: 328px;
+        left: 908px;
+        top: 744px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+    }
+    .articulosinteresar {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-top: 1030px;
+    }
+    .whiskey-coca {
+        width: 382px;
+        height: 144px;
+        border: solid black 1px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+        margin: 16px;
+    }
+    .imgwhiskey {
+        height: 128px;
+        width: 128px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+    .whiskey-coca2 {
+        width: 382px;
+        height: 144px;
+        border: solid black 1px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+        margin: 16px;
+    }
+    .whiskey-coca3 {
+        width: 382px;
+        height: 144px;
+        border: solid black 1px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+        margin: 16px;
+    }
+    .whiskey-coca4 {
+        width: 382px;
+        height: 144px;
+        border: solid black 1px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+        margin: 16px;
+    }
+    .whiskey-coca5 {
+        display: none;
+        width: 382px;
+        height: 144px;
+        border: solid black 1px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+        margin: 16px;
+    }
+    .whiskey-coca6 {
+        display: none;
+        width: 382px;
+        height: 144px;
+        border: solid black 1px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+        margin: 16px;
+    }
+    .texto2 {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .titulowhiskey {
+        margin-top: -35%;
+        margin-left: 40%;
+    }
+    .articulosPedidos {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 15%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .categories2 {
+        color: white;
+        background-color: rgba(73, 79, 81, 1);
+        border-radius: 10px;
+        width: 382px;
+        height: 375px;
+        /* text-align: center; */
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-top: 90%;
+        margin-left: -25%;
+    }
+    .pies {
+        display: none;
+    }
 }

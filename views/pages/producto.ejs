@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,145 +11,142 @@
     <link href="/css/jsfront.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital,wght@0,300;1,500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital,wght@0,300;1,500&display=swap" rel="stylesheet" />
     <title>Productot</title>
-  </head>
+</head>
 
-  <body class="bodyEntero">
-    <header><%- include('../partials/header2.ejs') %></header>
+<body class="bodyEntero">
+    <header>
+        <%- include('../partials/header2.ejs') %>
+    </header>
 
-    <article class="rectangulo">
-      <img class="promo1" src="<%= product.gallery[0] %> " />
-      <img class="promo2" src="<%= product.gallery[1] %>" />
-      <img class="promo3" src="<%= product.gallery[2] %>" />
-      <img
-        class="bebida"
-        src="<%=product.image%>"
-        width="640px"
-        height="520px"
-      />
+    <article class="rectangulo gris">
+        <img class="promo1" src="<%= product.gallery[0] %> " />
+        <img class="promo2" src="<%= product.gallery[1] %>" />
+        <img class="promo3" src="<%= product.gallery[2] %>" />
+        <img class="bebida" src="<%=product.image%>" width="640px" height="520px" />
 
-      <section class="info">
-        <p class="Whiskey"><%=product.title%></p>
+        <section class="info">
+            <p class="Whiskey registrate">
+                <%=product.title%>
+            </p>
 
-        <br />
-        <h3 class="puntos"><%=product.price%></h3>
-        <p class="puntos-tit">PUNTOS</p>
-        <button class="agregar">Agregar al Carrito</button>
-        <p class="descripcion"><%=product.description%></p>
-      </section>
+            <br />
+            <h3 class="puntos negro">
+                <%=product.price%>
+            </h3>
+            <p class="puntos-tit registrate">PUNTOS</p>
+            <button class="agregar">Agregar al Carrito</button>
+            <p class="descripcion registrate">
+                <%=product.description%>
+            </p>
+        </section>
     </article>
     <h3 class="interesar">Tambien te puede interesar</h3>
     <!-- Promos -->
     <section class="promos">
-      <article class="whiskey-coca">
-        <a href="/products/123">
-          <img class="imgwhiskey" src="/img/images (2).jpeg"
-        /></a>
-        <p class="titulowhiskey">
-          Coca Cola Lata 220mL<br />
-          Pack Original x8
-        </p>
-        <div class="linewhiskey"></div>
-        <div class="texto2">
-          <p class="puntoswhiskey"><strong>760</strong></p>
-          <p class="puntoswhiskey">PUNTOS</p>
-        </div>
-      </article>
-      <article class="whiskey-coca2">
-        <a href="/products/123">
-          <img class="imgwhiskey" src="/img/images (2).jpeg"
-        /></a>
-        <p class="titulowhiskey">
-          Coca Cola Lata 220mL<br />
-          Pack Original x8
-        </p>
-        <div class="linewhiskey"></div>
-        <div class="texto2">
-          <p class="puntoswhiskey"><strong>760</strong></p>
-          <p class="puntoswhiskey">PUNTOS</p>
-        </div>
-      </article>
+        <article class="whiskey-coca">
+            <a href="/products/123">
+                <img class="imgwhiskey" src="/img/images (2).jpeg" /></a>
+            <p class="titulowhiskey">
+                Coca Cola Lata 220mL<br /> Pack Original x8
+            </p>
+            <div class="linewhiskey"></div>
+            <div class="texto2">
+                <p class="puntoswhiskey"><strong>760</strong></p>
+                <p class="puntoswhiskey">PUNTOS</p>
+            </div>
+        </article>
+        <article class="whiskey-coca2">
+            <a href="/products/123">
+                <img class="imgwhiskey" src="/img/images (2).jpeg" /></a>
+            <p class="titulowhiskey">
+                Coca Cola Lata 220mL<br /> Pack Original x8
+            </p>
+            <div class="linewhiskey"></div>
+            <div class="texto2">
+                <p class="puntoswhiskey"><strong>760</strong></p>
+                <p class="puntoswhiskey">PUNTOS</p>
+            </div>
+        </article>
     </section>
     <!-- Promos -->
     <section class="categories3">
-      <div class="cat2">
-        <ul class="lista_categorias">
-          <li>
-            <div class="electronica">
-              <img class="svg" src="/img/tablet-cellphone.svg" alt="cagó" />
-              <p>Electrónica</p>
-            </div>
-          </li>
-          <div class="line1"></div>
-          <li>
-            <div class="alimentos">
-              <img src="/img/hamburger.svg" alt="cagó" />
-              <p>Alimentos</p>
-            </div>
-          </li>
-          <div class="line2"></div>
-          <li>
-            <div class="bebidas">
-              <img src="/img/glass-mug-variant.svg" alt="cagó" />
-              <p>Bebidas</p>
-            </div>
-          </li>
-          <div class="line3"></div>
-          <li>
-            <div class="indumentaria">
-              <img src="/img/tshirt-crew.svg" alt="cagó" />
-              <p>Indumentaria</p>
-            </div>
-          </li>
-          <div class="line4"></div>
-          <li>
-            <div class="juegos">
-              <img src="/img/controller-classic.svg" alt="cagó" />
-              <p>Juegos</p>
-            </div>
-          </li>
-          <div class="line5"></div>
-          <li>
-            <div class="automotor">
-              <img src="/img/steering.svg" alt="cagó" />
-              <p>Automotor</p>
-            </div>
-          </li>
-          <div class="line6"></div>
-          <li>
-            <div class="hogar">
-              <img src="/img/sofa-single.svg" alt="cagó" />
-              <p>Hogar</p>
-            </div>
-          </li>
-          <div class="line7"></div>
-          <li>
-            <div class="otros">
-              <img src="/img/gift-outline.svg" alt="cagó" />
-              <p>Otros</p>
-            </div>
-          </li>
-        </ul>
-      </div>
+        <div class="cat2">
+            <ul class="lista_categorias">
+                <li>
+                    <div class="electronica">
+                        <img class="svg" src="/img/tablet-cellphone.svg" alt="cagó" />
+                        <p>Electrónica</p>
+                    </div>
+                </li>
+                <div class="line1"></div>
+                <li>
+                    <div class="alimentos">
+                        <img src="/img/hamburger.svg" alt="cagó" />
+                        <p>Alimentos</p>
+                    </div>
+                </li>
+                <div class="line2"></div>
+                <li>
+                    <div class="bebidas">
+                        <img src="/img/glass-mug-variant.svg" alt="cagó" />
+                        <p>Bebidas</p>
+                    </div>
+                </li>
+                <div class="line3"></div>
+                <li>
+                    <div class="indumentaria">
+                        <img src="/img/tshirt-crew.svg" alt="cagó" />
+                        <p>Indumentaria</p>
+                    </div>
+                </li>
+                <div class="line4"></div>
+                <li>
+                    <div class="juegos">
+                        <img src="/img/controller-classic.svg" alt="cagó" />
+                        <p>Juegos</p>
+                    </div>
+                </li>
+                <div class="line5"></div>
+                <li>
+                    <div class="automotor">
+                        <img src="/img/steering.svg" alt="cagó" />
+                        <p>Automotor</p>
+                    </div>
+                </li>
+                <div class="line6"></div>
+                <li>
+                    <div class="hogar">
+                        <img src="/img/sofa-single.svg" alt="cagó" />
+                        <p>Hogar</p>
+                    </div>
+                </li>
+                <div class="line7"></div>
+                <li>
+                    <div class="otros">
+                        <img src="/img/gift-outline.svg" alt="cagó" />
+                        <p>Otros</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
     <footer class="pies">
-      <div class="footer_PRODUCT">
-        <img id="img-twitter" src="/img/twitter.svg" />
-        <img id="img-facebook" src="/img/facebook.svg" />
-        <img id="img-instagram" src="/img/instagram.svg" />
-        <img id="img-youtube" src="/img/youtube.svg" />
-        <p id="texto">© MiEcommerce. Todos los derechos reservados.</p>
-        <img id="img-appStore" src="/img/apple.svg" />
-        <p id="texto-2">App Store</p>
-        <img id="img-playStore" src="/img/google-play.svg" />
-        <p id="texto-3">Google Play</p>
-      </div>
+        <div class="footer_PRODUCT">
+            <img id="img-twitter" src="/img/twitter.svg" />
+            <img id="img-facebook" src="/img/facebook.svg" />
+            <img id="img-instagram" src="/img/instagram.svg" />
+            <img id="img-youtube" src="/img/youtube.svg" />
+            <p id="texto">© MiEcommerce. Todos los derechos reservados.</p>
+            <img id="img-appStore" src="/img/apple.svg" />
+            <p id="texto-2">App Store</p>
+            <img id="img-playStore" src="/img/google-play.svg" />
+            <p id="texto-3">Google Play</p>
+        </div>
     </footer>
     <script src="../../js/general.js"></script>
     <script src="../../js/product.js"></script>
-  </body>
+</body>
+
 </html>

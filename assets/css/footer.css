@@ -1,126 +1,146 @@
 .container-body {
-  position: absolute;
-  max-width: 1024px;
-  display: flex;
-  width: 1024px;
-  height: 64px;
-  top: 2008px;
-  left: 128px;
-  bottom: 0px;
-  background-color: rgba(231, 231, 231, 0.25);
-  backdrop-filter: blur(4px);
-  padding: 16px 0;
-}
-
-#img-twitter {
-  position: absolute;
-  width: 20.92px;
-  height: 17px;
-  top: 23px;
-  margin: 23px 128px 24px 23.08px;
-}
-
-#img-facebook {
-  position: absolute;
-  width: 20px;
-  height: 19.92px;
-  top: 22px;
-  left: 44px;
-  margin: 22px 23.08px 22.08px 23px;
-}
-
-#img-instagram {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 22px;
-  left: 87px;
-  margin: 22px 23px 22px 23px;
-}
-
-#img-youtube {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 25px;
-  left: 130px;
-  margin: 20px 23px 25px;
-}
-
-#texto {
-  position: absolute;
-  width: 50vw;
-  height: 18px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #999999;
-  margin: 30px 156px 23px 90px;
-  left: 306px;
-}
-
-#img-appStore {
-  position: absolute;
-  width: 16.3px;
-  height: 20px;
-  left: 705px;
-  margin: 28px 7.7px 22px 119px;
-}
-
-#texto-2 {
-  font-family: Open Sans;
-  position: absolute;
-  width: 56px;
-  height: 16px;
-  right: 108px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
-  /*display: flex;
-align-items: center;*/
-  color: #999999;
-  margin: 28px 16px 24px 7.7px;
-}
-
-#img-playStore {
-  position: absolute;
-  width: 17.75px;
-  height: 19.7px;
-  left: 900px;
-  margin: 28px 16px 24px 16px;
-}
-
-#texto-3 {
-  font-family: Open Sans;
-  position: absolute;
-  width: 66px;
-  height: 16px;
-  left: 930px;
-  right: 108px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
-  color: #999999;
-  margin: 28px 128px 24px 8.25px;
-}
-@media (max-width: 414px) {
-  .container-body {
     position: absolute;
     max-width: 1024px;
     display: flex;
     width: 1024px;
     height: 64px;
-    top: 2008px;
     left: 128px;
     bottom: 0px;
     background-color: rgba(231, 231, 231, 0.25);
     backdrop-filter: blur(4px);
     padding: 16px 0;
-  }
+}
+
+#img-twitter {
+    position: absolute;
+    width: 20.92px;
+    height: 17px;
+    top: 5px;
+    margin: 23px 128px 24px 23.08px;
+    left: 109px;
+}
+
+#img-facebook {
+    position: absolute;
+    width: 20px;
+    height: 19.92px;
+    top: 5px;
+    left: 144px;
+    margin: 22px 23.08px 22.08px 23px;
+}
+
+#img-instagram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 6px;
+    left: 181px;
+    margin: 22px 23px 22px 23px;
+}
+
+#img-youtube {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 219px;
+    margin: 20px 23px 25px;
+}
+
+#texto {
+    position: absolute;
+    width: 96vw;
+    height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+    /* margin: 30px 156px 23px 90px; */
+    left: 75px;
+    bottom: 57px;
+}
+
+#img-appStore {
+    position: absolute;
+    width: 16.3px;
+    height: 20px;
+    left: -9px;
+    margin: 28px 7.7px 22px 119px;
+    top: 23px;
+}
+
+#texto-2 {
+    font-family: Open Sans;
+    position: absolute;
+    width: 56px;
+    height: 16px;
+    right: 208px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    top: 25px;
+    color: #999999;
+    margin: 28px 16px 24px 7.7px;
+}
+
+#img-playStore {
+    position: absolute;
+    width: 17.75px;
+    height: 19.7px;
+    left: 204px;
+    top: 24px;
+    margin: 28px 16px 24px 16px;
+}
+
+#texto-3 {
+    font-family: Open Sans;
+    position: absolute;
+    width: 66px;
+    height: 16px;
+    left: 235px;
+    right: 108px;
+    top: 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    margin: 28px 128px 24px 8.25px;
+}
+
+@media (max-width: 414px) {
+    .container-body {
+        position: absolute;
+        display: flex;
+        background-color: rgba(231, 231, 231, 0.25);
+        backdrop-filter: blur(4px);
+        padding: 16px 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .SecLogosFooter {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+    .SecTitulo {
+        display: flex;
+        align-self: center;
+    }
+    .SecTiendaApp {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+    #Abajo2 {
+        position: absolute;
+        top: 2723px;
+        width: 100%;
+        right: 31%;
+    }
 }
