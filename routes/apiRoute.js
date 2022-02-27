@@ -4,7 +4,8 @@ let usersController = require("../controllers/usersController");
 let cartController = require("../controllers/cartController");
 let router = express.Router();
 
-router.get("/products", apiControllers.index);
+router.get("/products", apiControllers.newIndex);
+router.get("/products/new", apiControllers.writeNew);
 router.get("/suggested", apiControllers.suggested);
 router.get("/mostWanted", apiControllers.mostWanted);
 router.post("/users");

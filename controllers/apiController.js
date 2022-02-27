@@ -1,8 +1,35 @@
 const fetch = require("node-fetch2");
+const functions = require("../models/userModel.js");
+const funciones = require("../models/productModel.js");
+const path = require("path");
 const fs = require("fs");
 const { nextTick } = require("process");
 let url = "https://dhfakestore.herokuapp.com/api/products";
 let apiControllers = {
+  newIndex: (req, res) => {
+    let objetosjson = funciones.leerJson();
+    res.send(objetosjson);
+  },
+
+  writeNew: (req, res) => {
+    let objetosjson = funciones.leerJson();
+    let { nombre, value, stock, descripcion, shop, imagen, img1, img2, img3 } =
+      req.body;
+    objetosjson.push({
+      gallery: [img1, img2, img3],
+      mostwanted: false,
+      stock: stock,
+      store: shop,
+      title: nombre,
+      price: value,
+      description: descripcion,
+      image: imagen,
+      category: "Alimentos",
+      __v: 0,
+    });
+    funciones.escribirJson(objetosjson);
+  },
+
   index: async (req, res) => {
     let response = await fetch(url);
     let data = await response.json();
