@@ -13,21 +13,73 @@ let apiControllers = {
 
   writeNew: (req, res) => {
     let objetosjson = funciones.leerJson();
-    let { nombre, value, stock, descripcion, shop, imagen, img1, img2, img3 } =
-      req.body;
+    let name = req.body.nombre;
+    let valor = req.body.valor;
+    let stock = req.body.stock;
+    let descripcion = req.body.descripcion;
+    let tienda = req.body.tienda;
+    let id = req.body.id;
+    let img = req.body.img;
     objetosjson.push({
-      gallery: [img1, img2, img3],
+      gallery: [],
       mostwanted: false,
       stock: stock,
-      store: shop,
-      title: nombre,
-      price: value,
+      store: tienda,
+      _id: id,
+      title: name,
+      price: valor,
       description: descripcion,
-      image: imagen,
-      category: "Alimentos",
+      image: img,
+      category: null,
       __v: 0,
     });
     funciones.escribirJson(objetosjson);
+    return res.send();
+  },
+
+  deleteItem: (req, res) => {
+    let objetosjson = funciones.leerJson();
+    const { id } = req.body;
+    const busqueda = objetosjson.filter((element) => element._id !== id);
+    console.log(busqueda);
+
+    funciones.escribirJson(busqueda);
+    return res.send(busqueda);
+  },
+
+  editItem: (req, res) => {
+    let objetosjson = funciones.leerJson();
+    const { id } = req.body;
+    const name = req.body.nombre;
+    const valor = req.body.valor;
+    const stock = req.body.stock;
+    const descripcion = req.body.descripcion;
+    const tienda = req.body.tienda;
+    const newimg = req.body.newimg;
+    const img1 = req.body.img1;
+    const img2 = req.body.img2;
+    const img3 = req.body.img3;
+    const mostWanted = req.body.mostwanted;
+    const category = req.body.category;
+    const busqueda = objetosjson.filter((element) => element._id !== id);
+
+    console.log(busqueda);
+    funciones.escribirJson(busqueda);
+
+    busqueda.push({
+      gallery: [img1, img2, img3],
+      mostwanted: mostWanted,
+      stock: stock,
+      store: null,
+      _id: id,
+      title: name,
+      price: valor,
+      description: descripcion,
+      image: newimg,
+      category: category,
+    });
+    funciones.escribirJson(busqueda);
+    return res.send(busqueda);
   },
 
   index: async (req, res) => {
@@ -48,10 +100,10 @@ let apiControllers = {
 
   idProduct: async (req, res) => {
     let id = req.params.id;
-
-    let response = await fetch(url);
-    let data = await response.json();
-    const productoFiltrado = data.find((product) => product._id == id);
+    let objetosjson = funciones.leerJson();
+    // let response = await fetch(url);
+    // let data = await response.json();
+    const productoFiltrado = objetosjson.find((product) => product._id == id);
     if (!productoFiltrado) {
       res.send("Error 404, Not found");
     } else {

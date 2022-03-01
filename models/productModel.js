@@ -16,6 +16,11 @@ let functionsProduct = {
       JSON.stringify(arregloNuevo, null, 2)
     );
   },
+  retornarJson: function () {
+    return fs.readFileSync(
+      require("path").resolve(__dirname, "..", "data", "products.json")
+    );
+  },
 };
 
 module.exports = functionsProduct;
